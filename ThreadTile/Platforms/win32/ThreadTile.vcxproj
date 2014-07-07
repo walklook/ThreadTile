@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12C2B95F-F7D5-6AD2-D725-2F256873AF75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ThreadTile</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="..\..\.\Platforms\win32\ThreadTile.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="..\..\.\Platforms\win32\ThreadTile.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\.\bin\;$(MSBuildProjectDirectory)\..\..\.\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(HEADER_ROOT)\Classes\Map;$(HEADER_ROOT)\Classes;$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\platform;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\CocosDenshion\include;$(COCOS2DX_ROOT)\extensions;$(COCOS2DX_ROOT)\extensions\CCBReader;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json\lib_json;$(COCOS2DX_ROOT)\extensions\GUI\CCControlExtension;$(COCOS2DX_ROOT)\extensions\GUI\CCScrollView;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\pthread;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;shell32.lib;wininet.lib;opengl32.lib;glew32.lib;pthreadVCE2.lib;libcocos2d.lib;libExtensions.lib;libCocosDenshion.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(HEADER_ROOT)\Classes\CharacterAnimation\3DModel;$(HEADER_ROOT)\Classes\CharacterAnimation;$(HEADER_ROOT)\Classes\Map;$(HEADER_ROOT)\Classes;$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\platform;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\CocosDenshion\include;$(COCOS2DX_ROOT)\extensions;$(COCOS2DX_ROOT)\extensions\CCBReader;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json\lib_json;$(COCOS2DX_ROOT)\extensions\GUI\CCControlExtension;$(COCOS2DX_ROOT)\extensions\GUI\CCScrollView;$(EOS_ROOT)\Core;$(EOS_ROOT)\XNet;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\pthread;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(EOS_ROOT)\Core\Platform\Windows;$(EOS_ROOT)\XNet\Platform\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(HEADER_ROOT)\Classes\CharacterAnimation\3DModel;$(HEADER_ROOT)\Classes\CharacterAnimation;$(HEADER_ROOT)\Classes\Map;$(HEADER_ROOT)\Classes;$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\platform;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\CocosDenshion\include;$(COCOS2DX_ROOT)\extensions;$(COCOS2DX_ROOT)\extensions\CCBReader;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json\lib_json;$(COCOS2DX_ROOT)\extensions\GUI\CCControlExtension;$(COCOS2DX_ROOT)\extensions\GUI\CCScrollView;$(EOS_ROOT)\Core;$(EOS_ROOT)\XNet;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\pthread;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(EOS_ROOT)\Core\Platform\Windows;$(EOS_ROOT)\XNet\Platform\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;shell32.lib;wininet.lib;opengl32.lib;glew32.lib;pthreadVCE2.lib;libcocos2d.lib;libExtensions.lib;libCocosDenshion.lib;Core.lib;XNet.lib;libcurl_imp.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);$(SolutionDir)../../../ThirdParty/EOS/Build/Libs/$(Platform)/$(Configuration)/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(HEADER_ROOT)\Classes\CharacterAnimation\3DModel;$(HEADER_ROOT)\Classes\CharacterAnimation;$(HEADER_ROOT)\Classes\Map;$(HEADER_ROOT)\Classes;$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\platform;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\CocosDenshion\include;$(COCOS2DX_ROOT)\extensions;$(COCOS2DX_ROOT)\extensions\CCBReader;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json;$(COCOS2DX_ROOT)\extensions\CCArmature\external_tool\Json\lib_json;$(COCOS2DX_ROOT)\extensions\GUI\CCControlExtension;$(COCOS2DX_ROOT)\extensions\GUI\CCScrollView;$(EOS_ROOT)\Core;$(EOS_ROOT)\XNet;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\pthread;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(EOS_ROOT)\Core\Platform\Windows;$(EOS_ROOT)\XNet\Platform\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\..\Classes\Map\TileLayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Platforms\win32\main.cpp" />
+    <ClCompile Include="..\..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\..\Classes\Map\TileLayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

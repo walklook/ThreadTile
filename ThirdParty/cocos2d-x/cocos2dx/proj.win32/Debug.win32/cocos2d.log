@@ -1,0 +1,24 @@
+﻿Build started 8/16/2013 11:44:48 AM.
+     1>Project "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\cocos2d.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libcocos2d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       PreLinkEvent:
+         if not exist "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\\..\..\..\..\ThreadTile\Platforms\win32\Debug\" mkdir "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\\..\..\..\..\ThreadTile\Platforms\win32\Debug\"
+         xcopy /Y /Q "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\..\platform\third_party\win32\libraries\*.*" "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\\..\..\..\..\ThreadTile\Platforms\win32\Debug\"
+         
+         :VCEnd
+         15 File(s) copied
+       Link:
+         All outputs are up-to-date.
+         cocos2d.vcxproj -> Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\\..\..\..\..\ThreadTile\Platforms\win32\Debug\libcocos2d.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libcocos2d.unsuccessfulbuild".
+         Touching "Debug.win32\libcocos2d.lastbuildstate".
+     1>Done Building Project "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\cocos2dx\proj.win32\cocos2d.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.60

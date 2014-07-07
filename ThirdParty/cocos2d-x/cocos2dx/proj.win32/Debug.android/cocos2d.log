@@ -1,0 +1,65 @@
+﻿Build started 7/27/2013 1:57:14 AM.
+     1>Project "Z:\Development\Fables\Client\ThirdParty\cocos2d-x\cocos2dx\proj.win32\cocos2d.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug.android\libcocos2d.unsuccessfulbuild".
+       ClCompile:
+         C:\android-ndk-r8e\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\bin\arm-linux-androideabi-g++.exe -x c++ -o Debug.android/cocos2d.o -DCOCOS2D_DEBUG=1 -marm -fno-strict-aliasing -funswitch-loops -finline-limit=100 -fomit-frame-pointer -fno-exceptions -fpic -fstack-protector -frtti -fno-short-enums -Wno-psabi -IC:/android-ndk-r8e/platforms/android-9/arch-arm/usr/include -IC:/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include -IC:/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include -DANDROID_NDK -DANDROID -D__ANDROID__ -D__ARM_EABI__ -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -O0 -g -IZ:/Development/Fables/Client/ThirdParty/cocos2d-x/cocos2dx/proj.win32/.. -IZ:/Development/Fables/Client/ThirdParty/cocos2d-x/cocos2dx/proj.win32/../include -IZ:/Development/Fables/Client/ThirdParty/cocos2d-x/cocos2dx/proj.win32/../kazmath/include -IZ:/Development/Fables/Client/ThirdParty/cocos2d-x/cocos2dx/proj.win32/../platform/android -IZ:/Development/Fables/Client/ThirdParty/cocos2d-x/cocos2dx/proj.win32/../platform/third_party/android -DUSE_FILE32API -march=armv5te -mtune=xscale -c -MD ../cocos2d.cpp
+         CCAtlasNode.cpp
+         CCNode.cpp
+         ccFPSImages.c
+         CCAffineTransform.cpp
+         CCArray.cpp
+         CCAutoreleasePool.cpp
+         CCDataVisitor.cpp
+         CCDictionary.cpp
+         CCGeometry.cpp
+         CCNS.cpp
+         CCObject.cpp
+         CCSet.cpp
+         CCString.cpp
+         CCZone.cpp
+         CCDrawingPrimitives.cpp
+         CCDrawNode.cpp
+         CCGrabber.cpp
+         CCGrid.cpp
+         CCAction.cpp
+         CCActionCamera.cpp
+         CCActionCatmullRom.cpp
+         CCActionEase.cpp
+         CCActionGrid.cpp
+         CCActionGrid3D.cpp
+         CCActionInstant.cpp
+         CCActionInterval.cpp
+         CCActionManager.cpp
+         CCActionPageTurn3D.cpp
+         CCActionProgressTimer.cpp
+         CCActionTiledGrid.cpp
+         CCActionTween.cpp
+         CCLabelAtlas.cpp
+         CCLabelBMFont.cpp
+         CCLabelTTF.cpp
+         CCLayer.cpp
+         CCScene.cpp
+         CCTransition.cpp
+         CCTransitionPageTurn.cpp
+         CCTransitionProgress.cpp
+         CCMenu.cpp
+         CCMenuItem.cpp
+         CCClippingNode.cpp
+         CCMotionStreak.cpp
+         CCProgressTimer.cpp
+         CCRenderTexture.cpp
+         CCParticleBatchNode.cpp
+         CCParticleExamples.cpp
+         CCParticleSystem.cpp
+         CCParticleSystemQuad.cpp
+         CCEGLViewProtocol.cpp
+         CCFileUtils.cpp
+         CCImageCommonWebp.cpp
+     1>Z:\Development\Fables\Client\ThirdParty\cocos2d-x\cocos2dx\platform\CCImageCommonWebp.cpp(32,20): fatal error : decode.h: No such file or directory
+         compilation terminated.
+     1>Done Building Project "Z:\Development\Fables\Client\ThirdParty\cocos2d-x\cocos2dx\proj.win32\cocos2d.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:32.07

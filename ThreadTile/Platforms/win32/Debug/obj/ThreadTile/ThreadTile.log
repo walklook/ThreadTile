@@ -1,0 +1,26 @@
+﻿Build started 8/16/2013 11:44:55 AM.
+     1>Project "Z:\Development\ThreadTile\ThreadTile\Platforms\win32\ThreadTile.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\obj\ThreadTile\ThreadTile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../..\Classes\Map /I../..\Classes /I"../../../ThirdParty/cocos2d-x\cocos2dx" /I"../../../ThirdParty/cocos2d-x\cocos2dx\include" /I"../../../ThirdParty/cocos2d-x\cocos2dx\platform" /I"../../../ThirdParty/cocos2d-x\cocos2dx\kazmath\include" /I"../../../ThirdParty/cocos2d-x\CocosDenshion\include" /I"../../../ThirdParty/cocos2d-x\extensions" /I"../../../ThirdParty/cocos2d-x\extensions\CCBReader" /I"../../../ThirdParty/cocos2d-x\extensions\CCArmature\external_tool\Json" /I"../../../ThirdParty/cocos2d-x\extensions\CCArmature\external_tool\Json\lib_json" /I"../../../ThirdParty/cocos2d-x\extensions\GUI\CCControlExtension" /I"../../../ThirdParty/cocos2d-x\extensions\GUI\CCScrollView" /I"../../../ThirdParty/cocos2d-x\cocos2dx\platform\third_party\win32\OGLES" /I"../../../ThirdParty/cocos2d-x\cocos2dx\platform\third_party\win32" /I"../../../ThirdParty/cocos2d-x\cocos2dx\platform\third_party\win32\pthread" /I"../../../ThirdParty/cocos2d-x\cocos2dx\platform\win32" /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D COCOS2D_DEBUG=1 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\ThreadTile\\" /Fd"Debug\obj\ThreadTile\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Classes\HelloWorldScene.cpp ..\..\Classes\Map\TileLayer.cpp
+         HelloWorldScene.cpp
+         TileLayer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\ThreadTile.exe" /NOLOGO /LIBPATH:Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug kernel32.lib user32.lib shell32.lib wininet.lib opengl32.lib glew32.lib pthreadVCE2.lib libcocos2d.lib libExtensions.lib libCocosDenshion.lib /MANIFEST /ManifestFile:"Debug\obj\ThreadTile\ThreadTile.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\ThreadTile.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\ThreadTile.lib" /MACHINE:X86 Debug\obj\ThreadTile\main.obj
+         Debug\obj\ThreadTile\HelloWorldScene.obj
+         Debug\obj\ThreadTile\AppDelegate.obj
+         Debug\obj\ThreadTile\TileLayer.obj
+         LINK : Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\ThreadTile.exe not found or not built by the last incremental link; performing full link
+         ThreadTile.vcxproj -> Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\\ThreadTile.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\Development\ThreadTile\ThreadTile\Platforms\win32\Debug\ThreadTile.exe;#1" /manifest Debug\obj\ThreadTile\ThreadTile.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\obj\ThreadTile\ThreadTile.unsuccessfulbuild".
+         Touching "Debug\obj\ThreadTile\ThreadTile.lastbuildstate".
+     1>Done Building Project "Z:\Development\ThreadTile\ThreadTile\Platforms\win32\ThreadTile.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.92

@@ -1,0 +1,17 @@
+﻿Build started 8/16/2013 11:44:53 AM.
+     1>Project "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\CocosDenshion.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libCocosDenshion.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         CocosDenshion.vcxproj -> Z:\Development\ThreadTile\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\\..\..\..\..\ThreadTile\Platforms\win32\Debug\libCocosDenshion.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libCocosDenshion.unsuccessfulbuild".
+         Touching "Debug.win32\libCocosDenshion.lastbuildstate".
+     1>Done Building Project "Z:\Development\ThreadTile\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\CocosDenshion.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

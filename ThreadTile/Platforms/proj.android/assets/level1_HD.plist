@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentScaleFactor</key>
+	<real>1</real>
+	<key>Source</key>
+	<dict>
+		<key>Column</key>
+		<string>20</string>
+		<key>Filename</key>
+		<string>level1_HD.jpg</string>
+		<key>Row</key>
+		<string>10</string>
+		<key>Size</key>
+		<string>{10000, 5000}</string>
+		<key>TileSize</key>
+		<string>{512, 512}</string>
+	</dict>
+	<key>Tiles</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 0}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_0_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 0}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 512}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_1_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 512}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 1024}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_2_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 1024}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 1536}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_3_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 1536}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 2048}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_4_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 2048}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 2560}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_5_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 2560}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 3072}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_6_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 3072}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 3584}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_7_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 3584}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 4096}, {512, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_8_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 4096}, {272, 512}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_0.jpg</string>
+			<key>Rect</key>
+			<string>{{0, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_1.jpg</string>
+			<key>Rect</key>
+			<string>{{512, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_2.jpg</string>
+			<key>Rect</key>
+			<string>{{1024, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_3.jpg</string>
+			<key>Rect</key>
+			<string>{{1536, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_4.jpg</string>
+			<key>Rect</key>
+			<string>{{2048, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_5.jpg</string>
+			<key>Rect</key>
+			<string>{{2560, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_6.jpg</string>
+			<key>Rect</key>
+			<string>{{3072, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_7.jpg</string>
+			<key>Rect</key>
+			<string>{{3584, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_8.jpg</string>
+			<key>Rect</key>
+			<string>{{4096, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_9.jpg</string>
+			<key>Rect</key>
+			<string>{{4608, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_10.jpg</string>
+			<key>Rect</key>
+			<string>{{5120, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_11.jpg</string>
+			<key>Rect</key>
+			<string>{{5632, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_12.jpg</string>
+			<key>Rect</key>
+			<string>{{6144, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_13.jpg</string>
+			<key>Rect</key>
+			<string>{{6656, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_14.jpg</string>
+			<key>Rect</key>
+			<string>{{7168, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_15.jpg</string>
+			<key>Rect</key>
+			<string>{{7680, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_16.jpg</string>
+			<key>Rect</key>
+			<string>{{8192, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_17.jpg</string>
+			<key>Rect</key>
+			<string>{{8704, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_18.jpg</string>
+			<key>Rect</key>
+			<string>{{9216, 4608}, {512, 392}}</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>level1_HD_9_19.jpg</string>
+			<key>Rect</key>
+			<string>{{9728, 4608}, {272, 392}}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04961BF32790931B11C58043 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40101A71FE596AEAFFE7FD76 /* HelloWorldScene.cpp */; };
+		0C853A4A258D8D6BC6A870C8 /* libcocos2dx_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8ACF1419117F59BC8D88F2 /* libcocos2dx_ios.a */; };
+		51C258400686F8F2662FDFD0 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC6D151BF78BD23F09035C7F /* AppController.mm */; };
+		52B778BED7D748A8C2FCA716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67759057AF870408C2458B44 /* UIKit.framework */; };
+		56E7EFD180F09A39D7607C15 /* TileLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF78F3DD0FEE0E289D2CB8CC /* TileLayer.cpp */; };
+		78FCB0938EA45DBABCDCEE69 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 124E09164AB04AD5D3150B41 /* RootViewController.mm */; };
+		86A09ECEB6E9878DE56B7851 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AB9E54B425109AA7781420 /* AVFoundation.framework */; };
+		8844486CBD7298253EAFDB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85DA3A4444A61C5B9C88BA1 /* main.m */; };
+		8BE8739184FF3879E9A34FEA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD3659AFEC6E61BFD4A3C25 /* Security.framework */; };
+		9D544BA133E2A4D582BD1FD5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36817765B212D5D3E422298B /* CFNetwork.framework */; };
+		A336EDB1A9CE94D9A94FFBE7 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D812CC709F102DE2B1158E6F /* AppDelegate.cpp */; };
+		AA9C9411845FD0D836F6B6FF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9B66D3193AC1E06E95ACC2 /* AudioToolbox.framework */; };
+		AAEDF5BE646EC2696EECC479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D0B72B732B51F95A905C3 /* CoreGraphics.framework */; };
+		B1068971277B0B1CD58F9690 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26590B14427D1DD15D106E36 /* SystemConfiguration.framework */; };
+		C03EE24CDEB4C05F8663B43C /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = A339A646721506D885114AEE /* Resource */; };
+		E5F008CEBD0E683296489B35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F74A083D4D4DEF7AA2A1F /* QuartzCore.framework */; };
+		F0D805626250BE08210D18FD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A7C6DE6949340B8D917E97 /* OpenAL.framework */; };
+		F38EB587A306E047A770CB45 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5571EF093B57B14D4FB4C76A /* OpenGLES.framework */; };
+		FD85362B85DA36E70085B591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAABF0796544F43EDE1F6C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		124E09164AB04AD5D3150B41 /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		26590B14427D1DD15D106E36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		324E4870DEDF9A55A5BD837D /* libCoreIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCoreIOS.a; path = ../ThirdParty/EOS/Core/build/Release/libCoreIOS.a; sourceTree = "<group>"; };
+		36817765B212D5D3E422298B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		37AC8AEC941C92539A136ED0 /* TileLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileLayer.h; sourceTree = "<group>"; };
+		3AD3659AFEC6E61BFD4A3C25 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		40101A71FE596AEAFFE7FD76 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		5571EF093B57B14D4FB4C76A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5F9B66D3193AC1E06E95ACC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		67759057AF870408C2458B44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CAABF0796544F43EDE1F6C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98A7C6DE6949340B8D917E97 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		99E8B21E159A3E55297DBCC5 /* Fables.gyp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fables.gyp; sourceTree = "<group>"; };
+		A339A646721506D885114AEE /* Resource */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resource; sourceTree = "<group>"; };
+		A85DA3A4444A61C5B9C88BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8ACF1419117F59BC8D88F2 /* libcocos2dx_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcocos2dx_ios.a; path = "../ThirdParty/cocos2d-x/lib/Release/libcocos2dx_ios.a"; sourceTree = "<group>"; };
+		CF78F3DD0FEE0E289D2CB8CC /* TileLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TileLayer.cpp; sourceTree = "<group>"; };
+		D58D4C8F264E4F33A6CA55B7 /* libXNetIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNetIOS.a; path = ../ThirdParty/EOS/XNet/build/Release/libXNetIOS.a; sourceTree = "<group>"; };
+		D812CC709F102DE2B1158E6F /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		EC6D151BF78BD23F09035C7F /* AppController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		F10938AD555C15B5A0DBDDDA /* ThreadTile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadTile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F74A083D4D4DEF7AA2A1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F28E062AB3E7C54422A91F3A /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		F4AB9E54B425109AA7781420 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F50972715AD6DA5AD2D98943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE6D0B72B732B51F95A905C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6988CE10205CD5DC4DAFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD85362B85DA36E70085B591 /* Foundation.framework in Frameworks */,
+				52B778BED7D748A8C2FCA716 /* UIKit.framework in Frameworks */,
+				F38EB587A306E047A770CB45 /* OpenGLES.framework in Frameworks */,
+				AAEDF5BE646EC2696EECC479 /* CoreGraphics.framework in Frameworks */,
+				E5F008CEBD0E683296489B35 /* QuartzCore.framework in Frameworks */,
+				AA9C9411845FD0D836F6B6FF /* AudioToolbox.framework in Frameworks */,
+				F0D805626250BE08210D18FD /* OpenAL.framework in Frameworks */,
+				86A09ECEB6E9878DE56B7851 /* AVFoundation.framework in Frameworks */,
+				9D544BA133E2A4D582BD1FD5 /* CFNetwork.framework in Frameworks */,
+				B1068971277B0B1CD58F9690 /* SystemConfiguration.framework in Frameworks */,
+				8BE8739184FF3879E9A34FEA /* Security.framework in Frameworks */,
+				0C853A4A258D8D6BC6A870C8 /* libcocos2dx_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BB3288A1F4BE4D41E227F5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				793030899892373E7311C718 /* Classes */,
+				D0FB592B531960B1B24A414B /* Platforms/ios */,
+				A339A646721506D885114AEE /* Resource */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		2FCB683B0C1D6E08BFD36954 = {
+			isa = PBXGroup;
+			children = (
+				23BB3288A1F4BE4D41E227F5 /* Source */,
+				3794C68690BDED0C7692628D /* Frameworks */,
+				6CC3D33AA16A8D35D990F33E /* Products */,
+				C2B97F895C9D8CC19FE74079 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		3794C68690BDED0C7692628D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4AB9E54B425109AA7781420 /* AVFoundation.framework */,
+				5F9B66D3193AC1E06E95ACC2 /* AudioToolbox.framework */,
+				36817765B212D5D3E422298B /* CFNetwork.framework */,
+				FE6D0B72B732B51F95A905C3 /* CoreGraphics.framework */,
+				6CAABF0796544F43EDE1F6C6 /* Foundation.framework */,
+				98A7C6DE6949340B8D917E97 /* OpenAL.framework */,
+				5571EF093B57B14D4FB4C76A /* OpenGLES.framework */,
+				F22F74A083D4D4DEF7AA2A1F /* QuartzCore.framework */,
+				3AD3659AFEC6E61BFD4A3C25 /* Security.framework */,
+				26590B14427D1DD15D106E36 /* SystemConfiguration.framework */,
+				67759057AF870408C2458B44 /* UIKit.framework */,
+				324E4870DEDF9A55A5BD837D /* libCoreIOS.a */,
+				D58D4C8F264E4F33A6CA55B7 /* libXNetIOS.a */,
+				CE8ACF1419117F59BC8D88F2 /* libcocos2dx_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC3D33AA16A8D35D990F33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10938AD555C15B5A0DBDDDA /* ThreadTile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793030899892373E7311C718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93D71592FA399A9F9D7D92B0 /* Map */,
+				D812CC709F102DE2B1158E6F /* AppDelegate.cpp */,
+				F50972715AD6DA5AD2D98943 /* AppDelegate.h */,
+				40101A71FE596AEAFFE7FD76 /* HelloWorldScene.cpp */,
+				F28E062AB3E7C54422A91F3A /* HelloWorldScene.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93D71592FA399A9F9D7D92B0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CF78F3DD0FEE0E289D2CB8CC /* TileLayer.cpp */,
+				37AC8AEC941C92539A136ED0 /* TileLayer.h */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C2B97F895C9D8CC19FE74079 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				99E8B21E159A3E55297DBCC5 /* Fables.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		D0FB592B531960B1B24A414B /* Platforms/ios */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D151BF78BD23F09035C7F /* AppController.mm */,
+				124E09164AB04AD5D3150B41 /* RootViewController.mm */,
+				A85DA3A4444A61C5B9C88BA1 /* main.m */,
+			);
+			path = Platforms/ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C658EEA279640362650F94 /* ThreadTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8156BC278BC6017946133770 /* Build configuration list for PBXNativeTarget "ThreadTile" */;
+			buildPhases = (
+				6C7105E6C528E1FEBCF208B3 /* Resources */,
+				515BBA048537466DA16C2713 /* Sources */,
+				5E6988CE10205CD5DC4DAFE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreadTile;
+			productName = Fables;
+			productReference = F10938AD555C15B5A0DBDDDA /* ThreadTile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B8DECA9E62248E4FCFEEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = FC70803B76AA7E6F1C6765E3 /* Build configuration list for PBXProject "ThreadTile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FCB683B0C1D6E08BFD36954;
+			projectDirPath = ../..;
+			projectRoot = "";
+			targets = (
+				A6C658EEA279640362650F94 /* ThreadTile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7105E6C528E1FEBCF208B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03EE24CDEB4C05F8663B43C /* Resource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515BBA048537466DA16C2713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E7EFD180F09A39D7607C15 /* TileLayer.cpp in Sources */,
+				A336EDB1A9CE94D9A94FFBE7 /* AppDelegate.cpp in Sources */,
+				04961BF32790931B11C58043 /* HelloWorldScene.cpp in Sources */,
+				8844486CBD7298253EAFDB7F /* main.m in Sources */,
+				51C258400686F8F2662FDFD0 /* AppController.mm in Sources */,
+				78FCB0938EA45DBABCDCEE69 /* RootViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D09D318196A55549295B415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		D378B105085CE1B83B172EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COCOS2DX_ROOT = "../ThirdParty/cocos2d-x";
+				COPY_PHASE_STRIP = NO;
+				EOS_ROOT = ../ThirdParty/EOS;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CC_TARGET_OS_IPHONE,
+					USE_FILE32API,
+					PLATFORM_IOS,
+					NDEBUG,
+				);
+				HEADER_ROOT = ./;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_ROOT)/Classes/Map",
+					"$(HEADER_ROOT)/Classes",
+					"$(COCOS2DX_ROOT)/cocos2dx",
+					"$(COCOS2DX_ROOT)/cocos2dx/include",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform",
+					"$(COCOS2DX_ROOT)/cocos2dx/kazmath/include",
+					"$(COCOS2DX_ROOT)/CocosDenshion/include",
+					"$(COCOS2DX_ROOT)/extensions",
+					"$(COCOS2DX_ROOT)/extensions/CCBReader",
+					"$(COCOS2DX_ROOT)/extensions/CCArmature/external_tool/Json",
+					"$(COCOS2DX_ROOT)/extensions/CCArmature/external_tool/Json/lib_json",
+					"$(COCOS2DX_ROOT)/extensions/GUI/CCControlExtension",
+					"$(COCOS2DX_ROOT)/extensions/GUI/CCScrollView",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/third_party/ios",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/ios",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Platforms/ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(COCOS2DX_ROOT)/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/third_party/ios/libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lcocos2dx_ios",
+					"-lz",
+					"-lwebp",
+				);
+				PRODUCT_NAME = ThreadTile;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+				WRAPPER_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA051315729BE392129078D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COCOS2DX_ROOT = "../ThirdParty/cocos2d-x";
+				COPY_PHASE_STRIP = NO;
+				EOS_ROOT = ../ThirdParty/EOS;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CC_TARGET_OS_IPHONE,
+					USE_FILE32API,
+					PLATFORM_IOS,
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+				);
+				HEADER_ROOT = ./;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_ROOT)/Classes/Map",
+					"$(HEADER_ROOT)/Classes",
+					"$(COCOS2DX_ROOT)/cocos2dx",
+					"$(COCOS2DX_ROOT)/cocos2dx/include",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform",
+					"$(COCOS2DX_ROOT)/cocos2dx/kazmath/include",
+					"$(COCOS2DX_ROOT)/CocosDenshion/include",
+					"$(COCOS2DX_ROOT)/extensions",
+					"$(COCOS2DX_ROOT)/extensions/CCBReader",
+					"$(COCOS2DX_ROOT)/extensions/CCArmature/external_tool/Json",
+					"$(COCOS2DX_ROOT)/extensions/CCArmature/external_tool/Json/lib_json",
+					"$(COCOS2DX_ROOT)/extensions/GUI/CCControlExtension",
+					"$(COCOS2DX_ROOT)/extensions/GUI/CCScrollView",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/third_party/ios",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/ios",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Platforms/ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(COCOS2DX_ROOT)/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"$(COCOS2DX_ROOT)/cocos2dx/platform/third_party/ios/libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lcocos2dx_ios",
+					"-lz",
+					"-lwebp",
+				);
+				PRODUCT_NAME = ThreadTile;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+				WRAPPER_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E073B23C50A27F3EF43ADE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8156BC278BC6017946133770 /* Build configuration list for PBXNativeTarget "ThreadTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA051315729BE392129078D9 /* Debug */,
+				D378B105085CE1B83B172EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		FC70803B76AA7E6F1C6765E3 /* Build configuration list for PBXProject "ThreadTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D09D318196A55549295B415 /* Debug */,
+				E073B23C50A27F3EF43ADE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B8DECA9E62248E4FCFEEF6 /* Project object */;
+}

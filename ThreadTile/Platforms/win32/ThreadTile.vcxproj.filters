@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Platforms">
+      <UniqueIdentifier>{A4E65B0C-5ED4-FFB4-A5D2-0F89DB35E8BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Platforms\win32">
+      <UniqueIdentifier>{789FEF16-EFE7-512E-F91B-DF7E0D72FB79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Classes">
+      <UniqueIdentifier>{C9B4A809-BCD2-0316-37C0-8EDE27321235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\Classes\Map">
+      <UniqueIdentifier>{51CF9372-CCB8-D2C0-FC21-67C9CD5195E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Platforms\win32\main.cpp">
+      <Filter>..\..\Platforms\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\HelloWorldScene.cpp">
+      <Filter>..\..\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\AppDelegate.cpp">
+      <Filter>..\..\Classes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Classes\AppDelegate.h">
+      <Filter>..\..\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\HelloWorldScene.h">
+      <Filter>..\..\Classes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Classes\Map\TileLayer.cpp">
+      <Filter>..\..\Classes\Map</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Classes\Map\TileLayer.h">
+      <Filter>..\..\Classes\Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

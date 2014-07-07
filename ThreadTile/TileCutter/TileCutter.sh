@@ -1,0 +1,1 @@
+python TileCutter.py level1/level1_HD.png 512 512 jpg

@@ -1,0 +1,17 @@
+﻿Build started 7/23/2013 4:28:40 PM.
+     1>Project "Z:\Development\Fables\Client\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\CocosDenshion.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release.win32\libCocosDenshion.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         CocosDenshion.vcxproj -> Z:\Development\Fables\Client\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\\..\..\..\..\Fables\Platforms\win32\Release\libCocosDenshion.dll
+       FinalizeBuildStatus:
+         Deleting file "Release.win32\libCocosDenshion.unsuccessfulbuild".
+         Touching "Release.win32\libCocosDenshion.lastbuildstate".
+     1>Done Building Project "Z:\Development\Fables\Client\ThirdParty\cocos2d-x\CocosDenshion\proj.win32\CocosDenshion.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67CD28DD-DC5D-4F80-9E25-46DFBB721AC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThreadTile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ABEDE290-0B51-4F19-9938-298A4DA34C3D</key>
+		<string>ssh://github-ca.corp.zynga.com/xyu/ThreadTile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ThreadTile/Platforms/ios/ThreadTile.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ABEDE290-0B51-4F19-9938-298A4DA34C3D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github-ca.corp.zynga.com/xyu/ThreadTile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ABEDE290-0B51-4F19-9938-298A4DA34C3D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ABEDE290-0B51-4F19-9938-298A4DA34C3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ThreadTile</string>
+		</dict>
+	</array>
+</dict>
+</plist>

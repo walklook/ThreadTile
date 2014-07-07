@@ -1,0 +1,29 @@
+obj/local/armeabi/objs/box2d_static/Rope/b2Rope.o: \
+ /Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/Rope/b2Rope.cpp \
+ /Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Rope/b2Rope.h \
+ /Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cassert \
+ /Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath \
+ /Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat \
+ /Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef \
+ /Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/limits \
+ /Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Draw.h
+
+/Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Rope/b2Rope.h:
+
+/Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Math.h:
+
+/Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Settings.h:
+
+/Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cassert:
+
+/Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath:
+
+/Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat:
+
+/Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef:
+
+/Users/xyu/Development/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/limits:
+
+/Users/xyu/Development/Fables/Client/Fables/Platforms/proj.android/../../../ThirdParty/cocos2d-x/external/Box2D/../Box2D/Common/b2Draw.h:
